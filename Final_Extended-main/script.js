@@ -246,7 +246,7 @@ function displayCombinedResults(result1, result2) {
   }
 
   // Display result2
-  // Hardcoding the names for Rust
+  // Testing Content
   const scientificDisease = {
     Jackfruit: {
         Rust: "Uromyces artocarpi",
@@ -453,16 +453,10 @@ function displayCombinedResults(result1, result2) {
         Powdery: "Erysiphe communis"
     }
    };
-
-
-
   // Existing code
   if (result2 && result2.length > 0) {
     const plantDetails2 = result2[0]; // Get the top result
     const plantName1 = result1[0];
-
-    
-
     if (plantDetails2.label === "Healthy") {
         // If the plant is healthy
         resultContainer.innerHTML += `
