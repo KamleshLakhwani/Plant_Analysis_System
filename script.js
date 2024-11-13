@@ -246,7 +246,7 @@ function displayCombinedResults(result1, result2) {
   }
 
   // Display result2
-  // Hardcoding the names for Rust
+  // Testing Content
   const scientificDisease = {
     Jackfruit: {
         Rust: "Uromyces artocarpi",
